@@ -1,4 +1,12 @@
 h1 {
   background-color: white;
   color: dodgerblue;
+  font-size: 50px;
+}
+
+@media (width <= 700px) {
+
+  h1 {
+    font-size: 40px;
+  }
 }

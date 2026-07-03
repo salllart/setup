@@ -3,3 +3,10 @@ h2 {
   color: white;
   font-size: 140px;
 }
+
+@media (width <= 700px) {
+
+  h2 {
+    font-size: 100px;
+  }
+}
